@@ -14,4 +14,4 @@ So for example pasting the following links…
 `<lite-youtube videoid='5UAFdL8N91U'></lite-youtube>`<br>
 `<lite-youtube videoid='ucmU2nbCVI8'></lite-youtube>`
 
-**Note:** you need to include the <a href="https://github.com/paulirish/lite-youtube-embed/blob/master/readme.md">lite-youtube-embed stylesheet and script</a> yourself as this module will not do it for you.
+**Note:** you need to include the <a href="https://github.com/paulirish/lite-youtube-embed/blob/master/readme.md">lite-youtube-embed stylesheet and script</a> yourself as this module will not do it automatically for you.
