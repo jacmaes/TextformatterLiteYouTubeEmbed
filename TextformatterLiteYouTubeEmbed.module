@@ -7,7 +7,7 @@
  * https://github.com/ryancramerdesign/TextformatterVideoEmbed
  *
  * This module replaces plain YouTube links pasted in a CKEditor field
- * with Paul Irish's fast YouTube embed script:
+ * with Paul Irish's blazing fast embed script:
  * https://github.com/paulirish/lite-youtube-embed
  *
  * So for example the following links…
@@ -20,7 +20,7 @@
  * <lite-youtube videoid='5UAFdL8N91U'></lite-youtube>
  * <lite-youtube videoid='ucmU2nbCVI8'></lite-youtube>
  *
- * Note: you need to include the lite-youtube stylesheet and script yourself
+ * Note: you need to include the lite-youtube-embed stylesheet and script yourself
  */
 
 class TextformatterLiteYouTubeEmbed extends Textformatter
@@ -30,7 +30,7 @@ class TextformatterLiteYouTubeEmbed extends Textformatter
         return array(
             'title'     => __('Lite YouTube Embed'),
             'version'   => 101,
-            'summary'   => __("Replaces plain YouTube link in CKEditor with Paul Irish's faster YouTube embed script."),
+            'summary'   => __("Replaces plain YouTube links in a CKEditor field with Paul Irish's faster YouTube embed script."),
             'author'    => 'jacmaes',
         );
     }
